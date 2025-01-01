@@ -74,8 +74,8 @@ int main()
 	// Vars
 	DWORD SpreadAddr = 0x8D610F;
 	bool HK = false;
-	char EnSPByte[] = "\xBE\x00\x00\x00\x00";
-	char DisSPByte[] = "\xBE\x00\x00\x40\x3F";
+	char EnableNoSpreadBytes[] = "\xBE\x00\x00\x00\x00";
+	char DisableNoSpreadBytes[] = "\xBE\x00\x00\x40\x3F";
 
 	// MAIN CODE
 	std::cout << "Silent NoSpread for SA:MP started." << std::endl;
